@@ -16,6 +16,8 @@ The page will reload if you make edits.<br />
 ### `node server`
 go to project folder and run "node server" to run backend server 
 
+The backend server will run at [http://localhost:3000](http://localhost:3000)
+ 
 
 
 
