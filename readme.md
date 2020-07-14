@@ -18,6 +18,7 @@ go to project folder and run "node server" to run backend server
 
 The backend server will run at [http://localhost:5000](http://localhost:5000)
  
-###screen shot
-
+### screen shot
+![Image text]
+(https://raw.githubusercontent.com/AlduinLeung/ExpenseTracker/master/imgfolder/screenshot1.png)
 
