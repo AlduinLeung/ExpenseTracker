@@ -13,7 +13,7 @@ export const Transcation=({transaction})=>{   //这里直接解构赋值就好
         </span>
         <button 
         className="delete-btn"
-        onClick={()=>deleteTransaction(transaction.id)}
+        onClick={()=>deleteTransaction(transaction._id)}
         >x</button>
         </li>
     )

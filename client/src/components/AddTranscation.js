@@ -11,15 +11,22 @@ export const AddTranscation = () => {
         const newTransaction={
             id:Math.floor(Math.random()*100000000),
             text,
-            amount:+amount
+            amount:+amount,
+            
         }
-        addTransaction(newTransaction)
+        addTransaction(newTransaction);  //pass the transaction
+        setAmount(0);    //
+        setText("");     // reset the input area
     }
+    const btnOnClick=(e)=>{
+        
+    }
+    
     return (
         <>
             <form onSubmit={onSubmit}>
                 <div className="form-control">
-                    <label for="text">Text</label>
+                    <label>Text</label>
                     <input type="text" 
                     value={text} 
                     onChange={(e)=>setText(e.target.value)}
@@ -27,7 +34,7 @@ export const AddTranscation = () => {
                 </div>
 
                 <div className="form-control">
-                    <label for="amount">Amount
+                    <label>Amount
                     <br/>
                     </label>
                     <input type="number" 
@@ -37,6 +44,7 @@ export const AddTranscation = () => {
                 </div>
                 <button 
                 className="btn"
+                onClick={btnOnClick}
                 >Add Transcation</button>
             </form>
         </>

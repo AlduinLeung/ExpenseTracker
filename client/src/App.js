@@ -5,7 +5,7 @@ import {IncomeExpense} from './components/IncomeExpense'
 import {TracnscationList} from './components/TracnscationList'
 import {AddTranscation} from './components/AddTranscation'
 import './App.css'
-import {GlobalContext,GlobalProvider } from './context/GlobalState'
+import {GlobalProvider } from './context/GlobalState'
 function App() {
   return (
       <GlobalProvider>
